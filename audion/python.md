@@ -18,7 +18,6 @@
 
 ## 목차
 
-- [특징](#특징)
 - [요구사항](#요구사항)
 - [설치](#설치)
 - [빠른 시작](#빠른-시작)
@@ -29,14 +28,6 @@
 - [라이선스](#-라이선스)
 - [지원](#-지원)
 - [버전 히스토리](#-버전-히스토리)
-
-## 특징
-
-- **간편한 음성 AI 통합**: 몇 줄의 코드로 강력한 음성 AI 기능을 애플리케이션에 추가
-- **다양한 입력 지원**: 로컬 파일 및 URL을 통한 음성/비디오 처리
-- **광범위한 파일 형식**: 주요 오디오 및 비디오 형식 지원
-- **유연한 Flow 시스템**: 다양한 음성 AI 워크플로우 지원
-- **간단한 API**: 직관적이고 사용하기 쉬운 Python 인터페이스
 
 ## 요구사항
 
@@ -183,28 +174,7 @@ client.flow(
 - `Exception`: API 호출 실패 시
 
 ## 지원 파일 형식
-
-### 오디오 형식
-
-- `.wav` - WAV (Waveform Audio File Format)
-- `.mp3` - MP3 (MPEG-1 Audio Layer III)
-- `.m4a` - M4A (MPEG-4 Audio)
-- `.ogg` - OGG (Ogg Vorbis)
-- `.flac` - FLAC (Free Lossless Audio Codec)
-- `.aac` - AAC (Advanced Audio Coding)
-- `.wma` - WMA (Windows Media Audio)
-- `.m4b`, `.m4p`, `.m4r`, `.m4v` - 기타 MPEG-4 오디오 형식
-
-### 비디오 형식
-
-- `.mp4` - MP4 (MPEG-4 Part 14)
-- `.mov` - MOV (QuickTime File Format)
-- `.avi` - AVI (Audio Video Interleave)
-- `.mkv` - MKV (Matroska Video)
-- `.webm` - WebM
-- `.wmv` - WMV (Windows Media Video)
-- `.flv` - FLV (Flash Video)
-- `.mpeg`, `.mpg` - MPEG (Moving Picture Experts Group)
+지원하는 오디오/비디오 파일 형식은 [`Audion 지원 파일 형식`](file-formats.md) 문서를 참고하세요.
 
 ## 사용 예제
 
