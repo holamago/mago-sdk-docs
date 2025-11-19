@@ -14,7 +14,7 @@
 
 # Audion Python SDK
 
-> Repository: https://github.com/holamago/audion-python-sdk
+> Repository: [github.com/holamago/audion-python-sdk](https://github.com/holamago/audion-python-sdk)
 
 ## 목차
 
